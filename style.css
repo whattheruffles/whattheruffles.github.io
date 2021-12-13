@@ -1,0 +1,113 @@
+
+:root {
+    --background-primary: rgb(230, 230, 230);
+    --highlight-primary: #2f9886
+}
+
+body {
+
+}
+
+.title-container {
+    height: 40vh;
+    background-color: var(--background-primary);
+}
+
+.title-hello {
+    font-family: 'Noto Sans Japanese';
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+.title-name {
+    color: rgb(230, 230, 230);
+    background-color: var(--highlight-primary);
+
+    font-family: 'Noto Sans Japanese';
+    font-size: 4rem;
+    font-weight: 600;
+
+    position: relative;
+    top: -2.5rem;
+}
+
+.title-tag {
+    font-family: 'Noto Sans Japanese';
+    font-size: 4rem;
+
+    position: relative;
+    top: -2rem;
+}
+
+.about-me-container {
+    width: 80vw;
+    height: 45vh;
+
+    margin-left: 10vw;
+
+    background-color: var(--highlight-primary);
+}
+
+.about-me-image {
+    width: 20vw;
+    height: 20vw;
+
+    border-radius: 100%;
+
+    box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+    color: var(--background-primary);
+
+    font-family: 'Noto Sans Japanese';
+    font-size: 1.1rem;
+
+    text-align: left;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.contact-me-container {
+    margin-top: 10vh;
+
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Noto Sans Japanese';
+}
+
+.contact-me-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.achievements-container {
+    width: 80vw;
+    margin-left: 10vw;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.achievements {
+    font-size: 1.2rem;
+    font-family: 'Noto Sans Japanese';
+}
+
+.achievements-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Noto Sans Japanese';
+
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.achievements-image {
+    width: 20vw;
+    height: 20vw;
+
+    border-radius: 100%;
+
+    box-shadow: 10px 5px 10px black;
+}
